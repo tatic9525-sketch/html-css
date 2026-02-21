@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exercicios de Tabelas</title>
+    <style>
+           body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            
+        }
+         
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 8px;
+        }
+
+          td, th{
+            border: 1px solid gray;
+            padding: 8px;
+        }
+        
+        .vermelho{
+            background-color: rgb(228, 11, 11);
+        }
+
+       .amarelo{
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabelas</h1>
+    <table>
+
+    <colgroup>
+        <col class="amarelo">
+        <col class="vermelho" span="2">
+        <col class="amarelo">
+    
+    </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissao</th>
+        </tr>
+
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+         <tr>
+            <td>Cristiano Ronaldo</td>
+            <td>M</td>
+            <td>41</td>
+            <td>Jogador de Futebol</td>
+        </tr>
+
+         <tr>
+            <td>Aleixo Guelengue</td>
+            <td>M</td>
+            <td>38</td>
+            <td>professor</td>
+        </tr>
+
+         <tr>
+            <td>Maria da silva</td>
+            <td>F</td>
+            <td>28</td>
+            <td>Advogada</td>
+        </tr>
+
+         <tr>
+            <td>Pedro Bartolomeu</td>
+            <td>M</td>
+            <td>27</td>
+            <td>VIgilante</td>
+        </tr>
+
+         <tr>
+            <td>Madalena da Cunha</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Reporter</td>
+        </tr>
+
+         <tr>
+            <td>Leonel Messi</td>
+            <td>M</td>
+            <td>39</td>
+            <td>Jogador de futebol</td>
+        </tr>
+
+         <tr>
+            <td>Lebrow james</td>
+            <td>M</td>
+            <td>36</td>
+            <td>Jogador de Basquetboll</td>
+        </tr>
+    </table>
+</body>
+</html>

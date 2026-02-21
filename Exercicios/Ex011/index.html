@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML 5</title>
+</head>
+<body>
+   <h1>Imagem dinamica</h1> 
+   <p>TEnte abrir esse site em varios dispositivos diferentes ou simplismente aumentar e diminuir o tamanho do sue navegador </p>
+
+   <picture>
+    <source media="(max-width: 750px)" srcset="Imagens/foto-.1.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="Imagens/foto.2-.png" type="image/png">
+    <img src="Imagens/foto-..png" alt="imagem flexivel">
+   </picture>
+
+   <h1>reproduzindo Audio</h1>
+   <p>vamos aprender a representar audio em html 5</p>
+   <audio src="midia/telejornal.mp3" controls autoplay></audio>
+
+   <h2>Outra forma de meter audio no site</h2>
+
+   <audio preload="metadata" autoplay controls loop>
+    <p>vamos aprender outra forma representar audio em html 5</p>
+    <source src="midia/semba.mp3" type="audio/mpeg"> 
+    <source src="midia/noticia.opus" type="audio/opus">
+    <source src="midia/telejornal.nav" type="audio/nav">
+     
+    <p>infelizmente seu navegaor nao consegue reproduzir audio. <a href="midia/semba.mp3">clique aqui para baixar o arquivo em mp3</a></p>
+
+    
+   </audio>
+
+</body>
+</html>
